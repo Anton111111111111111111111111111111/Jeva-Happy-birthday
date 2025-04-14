@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box; 
+}
+body {
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6, p {	margin: 0;}
+
+p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;    
+    color: var(--primary-color);
+}
+
+ul, ol {
+	margin: 0;
+	padding: 0;
+    list-style-type: none; }
+
+a { text-decoration: none; 
+    color: currentColor; /*обнулення стандартного кольору посилання*/
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+body {
+    background-color:rgb(251, 220, 236);
+}
+.container {
+    max-width: 100%;
+    padding: 0 160px;    
+}
+
+.main-bunner {
+    background-image: url(./img/Jeva11.png);
+    background-size: 400px, cover;
+    background-position: center, center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.big-text {
+    font-size: 144px;
+}
+
+.img-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.wish-img, .empty {
+    width: 720px;
+    min-width: calc((100% - 50px) / 2);
+}
+
+p {
+    font-family: "Rubik Doodle Shadow", system-ui;
+    font-size: 48px;
+    color: rgb(99, 8, 26);
+}
+
+.main-container {
+    padding: 0 160px;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Rubik Doodle Shadow", system-ui;
+    font-size: 64px;
+    color: brown;
+}
