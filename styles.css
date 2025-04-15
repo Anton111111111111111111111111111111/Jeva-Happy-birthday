@@ -22,6 +22,11 @@ ul, ol {
 a { text-decoration: none; 
     color: currentColor; /*обнулення стандартного кольору посилання*/
 }
+
+.wish-you {
+    position: sticky;
+    top: 0;
+}
 img {
     display: block;
     max-width: 100%;
@@ -56,7 +61,7 @@ body {
 }
 
 .wish-img, .empty {
-    width: 720px;
+    width: 718px;
     min-width: calc((100% - 50px) / 2);
 }
 
@@ -67,7 +72,7 @@ p {
 }
 
 .main-container {
-    padding: 0 160px;
+    padding: 40px 160px;
 }
 
 h2 {
@@ -75,4 +80,35 @@ h2 {
     font-family: "Rubik Doodle Shadow", system-ui;
     font-size: 64px;
     color: brown;
+}
+
+.fake-left {
+    width: 722px;
+    position: relative;
+    right: 1145px;
+}
+
+.fake-left.first {
+    bottom: 1px;
+}
+
+.fake-left:hover {
+    visibility: hidden;
+}
+
+.fake-left:active {
+    visibility: hidden;
+}
+
+.fake-right {
+    width: 722px;
+    position: relative;
+    left: 1146px;
+}
+.fake-right.fifth {
+    bottom: 1px;
+}
+
+.fake-right:hover {
+    visibility: hidden;
 }
