@@ -20,18 +20,19 @@ ul, ol {
     list-style-type: none; }
 
 a { text-decoration: none; 
-    color: currentColor; /*обнулення стандартного кольору посилання*/
+    color: currentColor; 
 }
 
 .wish-you {
     position: sticky;
     top: 0;
+    z-index: 10;
 }
-img {
+/* img {
     display: block;
     max-width: 100%;
     height: auto;
-}
+} */
 body {
     background-color:rgb(251, 220, 236);
 }
@@ -56,8 +57,8 @@ body {
 .img-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
-    justify-content: space-between;
+    gap: 50px;
+    justify-content:center;
 }
 
 .wish-img, .empty {
@@ -83,13 +84,14 @@ h2 {
 }
 
 .fake-left {
-    width: 722px;
+    width: 730px;
     position: relative;
-    right: 1145px;
+    right: 724px;
+    border: 1px solid palevioletred;
 }
 
 .fake-left.first {
-    bottom: 1px;
+    top: 1px;
 }
 
 .fake-left:hover {
@@ -103,10 +105,8 @@ h2 {
 .fake-right {
     width: 722px;
     position: relative;
-    left: 1146px;
-}
-.fake-right.fifth {
-    bottom: 1px;
+    left: 722px;
+    border: 1px solid palevioletred;
 }
 
 .fake-right:hover {
